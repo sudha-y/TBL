@@ -5,10 +5,12 @@ body {
 html {
     scroll-behavior: smooth;
 }
-.profile{
- width: 20%;   
+#welcome img {
+    width: 20%;
 }
-
+#test{
+    width:35%;
+}
 #welcome {
     color: #FFFFFF;
     bottom: 0;
