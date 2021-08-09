@@ -5,7 +5,9 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
+.profile{
+ width: 40%;   
+}
 img {
     width: 320px;
     height: 400px;
