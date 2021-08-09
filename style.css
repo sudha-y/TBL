@@ -1,0 +1,140 @@
+body {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 320px;
+    height: 400px;
+}
+
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 700px;
+    z-index: 9;
+    padding-top: 10px;
+}
+
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.contact_1,
+.contact_2 {
+    background-color: wheat;
+    padding-top: 50px;
+}
+
+.contact_1 {
+    padding-bottom: 70px;
+}
+
+#contact iframe {
+    width: 80%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+}
+
+/*-----------------Remove links & menu CSS, remove text shadow, remove body padding top, give it to bio section------------------------------*/
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+
+}
+
+.navbar-inverse {
+    background-color: #2323d4;
+
+}
+
+.navbar-inverse a {
+    color: white !important;
+}
+
+#videos iframe {
+    width: 80%;
+}
+
+marquee {
+    background-color: darkmagenta;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+
+
+.navbar-brand img {
+    height: 40px;
+    width: 70%;
+    margin-right: -140px;
+    margin-top: -10px;
+
+}
+
+/*use navbar-custom class instead of inverse if student wants own colors
+.navbar-custom a {
+    color: #fff;
+    background-color: blue;
+}
+.navbar-text {
+    color: green;
+}
+
+*/
+
+/*additional activity*/
+input {
+    background: white;
+}
+
+@media(max-width:767px) {
+    .video1 {
+        height: 300px;
+        width: 100% !important;
+        padding: 15px !important;
+    }
+
+    .video2 {
+        height: 300px;
+        width: 100% !important;
+        padding: 15px !important;
+    }
+
+    #work iframe {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+
+}
